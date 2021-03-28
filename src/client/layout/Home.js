@@ -2,17 +2,11 @@ import React, { Component } from 'react';
 import { DashCircleFill } from 'react-bootstrap-icons';
 
 class ComponentHome extends Component {
-    // Home page component
-    constructor(props) {
-        super(props)
-    }
-
-
     render() {
         return (
             <div className="container">
                 <div className="my_heading">
-                    <DashCircleFill /> &nbsp; &nbsp;| &nbsp;&nbsp;Healthy Fruits
+                    <DashCircleFill /> &nbsp; &nbsp;| &nbsp;&nbsp;<b>Healthy Fruits</b>
                 </div>
                 <div className="section_1">
                     <div className="row">
@@ -21,14 +15,14 @@ class ComponentHome extends Component {
                             <h5 className="section_1_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
                         </div>
                         <div className="col-5">
-                            <img src="/images/mango_kiwi.png" className="section_1_fruit_image" />
+                            <img alt="fruit1" src={ process.env.PUBLIC_URL+"/images/mango_kiwi.png" } className="section_1_fruit_image" />
                         </div>
                     </div>
                 </div>
                 <div className="section_2">
                     <div className="row">
                         <div className="col-3">
-                            <img src="/images/pineapple_avo.png" className="section_2_fruit_image" />
+                            <img alt="fruit2" src={ process.env.PUBLIC_URL+"/images/pineapple_avo.png" }  className="section_2_fruit_image" />
                         </div>
                         <div className="col-8 section_2_text_container">
                             <h1 className="section_2_heading">Lorem Ipsum </h1>
@@ -43,7 +37,7 @@ class ComponentHome extends Component {
                             <h5 className="section_3_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
                         </div>
                         <div className="col-5">
-                            <img src="/images/lemon_avo.png" className="section_3_fruit_image" />
+                            <img alt="fruit3" src={ process.env.PUBLIC_URL+"/images/lemon_avo.png" } s className="section_3_fruit_image" />
                         </div>
                     </div>
                 </div>
