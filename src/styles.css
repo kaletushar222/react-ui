@@ -1,0 +1,109 @@
+.my_heading {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.section_1_fruit_image {
+    height: auto;
+    width: 100%;
+}
+
+.section_1_text_container{
+    margin-top: 5%;
+    left: 10%;
+}
+
+.section_1 {
+    background-color: orange;
+}
+
+.section_1_heading {
+    color: rgb(87, 36, 0);
+}
+
+.section_1_description {
+    color: white;
+}
+
+
+.section_2_fruit_image {
+    height: auto;
+    width: 100%;
+}
+
+.section_2_text_container{
+    margin-top: 5%;
+    left: 10%;
+}
+
+.section_2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.section_2_heading {
+    color: rgb(0, 138, 11);
+}
+
+.section_2_description {
+    color: rgb(0, 0, 0);
+}
+
+
+.section_3_fruit_image {
+    height: auto;
+    width: 100%;
+}
+
+.section_3_text_container{
+    margin-top: 5%;
+    left: 10%;
+}
+
+.section_3 {
+    background-color: rgb(51, 160, 0);
+}
+
+.section_3_heading {
+    color: rgb(218, 255, 6);
+}
+
+.section_3_description {
+    color: rgb(255, 254, 254);
+}
+
+.nutrition_facts_section {
+    width: 100%;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 25px;
+}
+
+.nutrition_heading{
+    left: 10%;
+}
+
+.horizontal_line {
+    height:2px;
+    border-width:1;
+    color:black;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;;
+}
+
+.light_horizontal_line {
+    height:1px;
+    border-width:0;
+    color:black;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;;
+}
+
+.dark_horizontal_line {
+    height:3px;
+    border-width:2;
+    color:black;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;;
+}
